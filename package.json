@@ -1,0 +1,20 @@
+{
+  "name": "javascript_06102017",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"json-server db.json\" \"webpack-dev-server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "3.5.0",
+    "eslint": "4.2.0",
+    "json-server": "0.11.0",
+    "rxjs": "5.4.2",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+  }
+}
