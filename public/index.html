@@ -9,3 +9,63 @@
 </main>
 
 <script src="js/bundle.js"></script>
+
+<script>
+
+  'use strict';
+
+  // // this = window
+
+  // // const parent = {
+  // //   doIt: () => {
+  // //     console.log(this);
+  // //   }
+  // // };
+
+  // // class Person {
+  // //   // function keyword style function
+  // //   // call-site this
+  // //   getFullName() {
+
+  // //   }
+  // // }
+
+  // // const child1 = Object.create(parent);
+  // // child1.n = 'child1';
+  // // const child2 = Object.create(parent);
+  // // child2.n = 'child2';
+
+  // // console.log(child1.doIt === child2.doIt);
+
+  // // child1.doIt();
+  // // child2.doIt();
+
+
+  // function doIt(a,b,c) {
+  //   console.log(this);
+  //   console.log(a,b,c);
+  // }
+
+  // doIt();
+  // window.doIt();
+
+  // const o = {
+  //   id: 2,
+  //   doIt: doIt,
+  // };
+
+  // o.doIt();
+
+  // // number of arguments is determined at development time
+  // o.doIt.call({ id: 3 }, 1, 2, 3);
+
+  // // pass an arbitrary number of arguments at runtime
+  // o.doIt.apply({ id: 4 }, [1, 2, 3]);
+  // // o.doIt(...[1, 2, 3]); // this is why apply is not used as much
+
+  // const fn = o.doIt.bind({ id:5 });
+  // fn(1,2,3);
+
+  //console.log(o.doIt === window.doIt);
+
+</script>

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"json-server db.json\" \"webpack-dev-server\""
+    "start": "concurrently \"json-server --watch --port 3010 db.json\" \"webpack-dev-server\""
   },
   "keywords": [],
   "author": "",
